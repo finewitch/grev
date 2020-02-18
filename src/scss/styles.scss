@@ -1,0 +1,20 @@
+@import './layout';
+@import './colors';
+@import './nav';
+@import './font';
+@import './landing';
+@import './section-1';
+@import './page-idea';
+@import './page-prep';
+
+#___gatsby, #gatsby-focus-wrapper{height: 100%;}
+.home{
+    height: 100%;
+    // border: 25px solid white;
+    // border-style: solid solid none none;
+    background: black;
+
+
+    main{height: 100%;}
+
+}

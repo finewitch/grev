@@ -188,6 +188,7 @@ html {
   font: 112.5%/1.45em georgia, serif;
   box-sizing: border-box;
   overflow-y: scroll;
+  height: 100%;
 }
 * {
   box-sizing: inherit;
@@ -199,8 +200,9 @@ html {
   box-sizing: inherit;
 }
 body {
+  height: 100%;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: 'Lato', sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -384,7 +386,7 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  /* margin-bottom: 1.45rem; */
 }
 figure {
   margin-left: 0;

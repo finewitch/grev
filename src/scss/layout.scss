@@ -1,0 +1,25 @@
+.container-page, .container{
+    height: 100%;
+    color: white;
+}
+.container-padding{
+    padding: 5rem 0 0 0;
+}
+.border{
+    border: 20px solid white;
+}
+.border-top-right{
+    border: 20px solid white;
+    border-style: solid solid none none;
+}
+.centered{
+    max-width: 300px;
+    margin: 0 auto;
+}
+.centered-flex{
+    align-items: center;
+    justify-content: center;
+}
+.no-height{ height:auto!important}
+.bg-img-dot{
+    background-image: url('../images/Dots8px.png');}
