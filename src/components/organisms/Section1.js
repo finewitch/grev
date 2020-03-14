@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import SubNav from '../molecules/SubNav'
 
 
 const Section1 = () => (
-    <div className="container-page bg-1 bg-img-dot border container-padding">
+    <div className="container-page bg-1 bg-img-dot  container-padding">
         <div className="container is-fullhd">
             <aside>
                 <div className="camera__image">
@@ -18,15 +19,7 @@ const Section1 = () => (
                     <span>about?</span>
                 </div>
             </main>
-            <div className="sec-nav is-fullhd">
-                <Link to='/page-2/'>idea</Link>
-                <Link to='/page-3/'>making-off</Link>
-                {/* <span>idea</span> */}
-                {/* <span>making-off</span> */}
-                <span>emotions</span>
-                {/* <span>1</span>
-                <span>1</span> */}
-            </div>
+           <SubNav/>
         </div>
     </div>
 )

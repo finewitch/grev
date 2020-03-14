@@ -20,10 +20,10 @@ const Landing = () => (
         <div className="landing__right border-top-right bg-landing">
             <div className="landing__right-header">
                 <span>
-                    <img src = {arrow} />
+                    {/* <img src = {arrow} /> */}
                     <h2 className="c-w">
                         USE THE REGULAR MENU TO NAVIGATE<br/>
-                        OR<br/>
+                        OR <span className="highlighted">SCROLL</span> TO <br/>
                         FOLLOW THE DIRECTORS TALE
                     </h2>
                     <img src = {arrow} className="img-rotate-down"/>

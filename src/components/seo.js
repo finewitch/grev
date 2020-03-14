@@ -71,6 +71,8 @@ function SEO ({ description, lang, meta, title }) {
       >
       <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet"/>
       <link href="https://fonts.googleapis.com/css?family=Playfair+Display:500,700&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css?family=Teko:300,400&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400&display=swap" rel="stylesheet"></link>
       </Helmet>
   )
 }

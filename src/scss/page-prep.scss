@@ -1,6 +1,97 @@
 .page-3{
+    nav{
+        height: auto;
+    }
+    // overflow: auto;
+    height: auto;
+    .bb, .bb1{
+        // border: 5px solid red;
+        width: 100vw;
+        left: 0;
+        background-image: url('../images/page-3-2.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: right;
+        height: 100vh;
+        margin: 50px 0;
+    }
+    .bb1{
+        background-image: url('../images/page-3-3.jpg');
+        background-position-x: left;
+    }
+    .bg{
+        height: 500px;
+        width: 500px;
+        background-image: url('../images/Dots8px.png');
+        position: absolute;
+        top: 10%;
+        z-index: -1;
+    }
+    .intro{
+        background-image: url('../images/page-2-1.jpg');
+        background-position-x: right;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 90vh;
+        width: 90vw;
+        padding-top: 15vh!important;
+    }
     .audio__container{
-        border: 3px solid white;
+        &-header{
+            // position: absolute;
+            width: 25vw;
+            h1{
+                font-size: 5rem;
+            }
+            h4{
+                line-height: 1.7rem;
+            }
+        }
+        display: flex;
+        // padding: 3rem;
+        &-row{
+            // border: 2px solid red;
+            width: 90vw;
+            img{
+                width: 25%;
+            }
+        }
+        &-player{
+            width: 20%;
+            position: relative;
+            // border: 2px solid green;
+            span{
+                position: absolute;
+                left: 50%;
+                top: 5%;
+                // border: 3px solid white;
+                display: block;
+                width:  130px;
+                height: 130px;
+                // border-radius: 50%;
+                img{
+                    position: absolute;
+                    top: 40%;
+                    left: 45%;
+                }
+            }
+            h2{
+                // border: 1px solid red;
+                position: absolute;
+                top: 40%;
+                font-size: 4rem;
+                left: 40%;
+                width: 500px;
+            }
+        }
+        &-img{
+            width: 80%;
+            padding: 0;
+            img{
+
+                margin:0;
+            }
+        }
         
     }
 }
