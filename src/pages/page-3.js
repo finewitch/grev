@@ -13,27 +13,8 @@ import img5 from '../images/page-3-6.jpg'
 import play from '../images/audio-play.svg'
 import GoBack from '../components/molecules/GoBack';
 
-var rellax = new Rellax('.rellax', {
-    speed: -2,
-    center: false,
-    wrapper: null,
-    round: true,
-    vertical: true,
-    horizontal: false
-  });
-
   class Page3 extends React.Component {
-    componentDidMount() {
-        // We can keep a reference to Rellax in case we need it later
-        this.rellax = new Rellax('.rellax', {
-            speed: -2,
-            center: false,
-            wrapper: null,
-            round: true,
-            vertical: true,
-            horizontal: false
-          });
-      }
+
     render() {
         return (
   <Layout title="prep">

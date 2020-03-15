@@ -8,14 +8,6 @@ import gif1 from '../images/page-3-4.gif'
 import img1 from '../images/page-4-1.jpg'
 // import play from '../images/audio-play.svg'
 
-var rellax = new Rellax('.rellax', {
-    speed: -2,
-    center: false,
-    wrapper: null,
-    round: true,
-    vertical: true,
-    horizontal: false
-  });
 
   class Page3 extends React.Component {
     componentDidMount() {
