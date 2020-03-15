@@ -21,22 +21,11 @@ var rellax = new Rellax('.rellax', {
     componentDidMount() {
         const mainImg = document.getElementById('main')
         window.addEventListener('scroll', function() {
-          console.log(window.scrollY);
           mainImg.style.transform = 'translate3d(0, -'+(window.scrollY/100)+'%, 0) scale('+(1.3 -  this.scrollY/4000)+')'
   //         $(".zoom img").css({
   //           transform: 'translate3d(-50%, -'+(scroll/100)+'%, 0) scale('+(100 + scroll/5)/100+')',
   // });
         })
-        // $(window).scroll(function() {
-        //   var scroll = $(window).scrollTop();
-        //   $(".zoom img").css({
-        //     transform: 'translate3d(-50%, -'+(scroll/100)+'%, 0) scale('+(100 + scroll/5)/100+')',
-        //     //Blur suggestion from @janwagner: https://codepen.io/janwagner/ in comments
-        //     //"-webkit-filter": "blur(" + (scroll/200) + "px)",
-        //     //filter: "blur(" + (scroll/200) + "px)"
-        //   });
-        // });
-      // }
     }
     render() {
         return (
